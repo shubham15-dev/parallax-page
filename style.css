@@ -1,0 +1,68 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family:"Lato",sans-serif;
+    font-weight: 300;
+    line-height: 1.8em;
+    color: #666;
+}
+.pimg1{
+    background-image: url(image/image1.png);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(image/image2.png);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(image/image3.png);
+    min-height: 400px;
+}
+.pimg4{
+    background-image: url(image/bird-1045954_1280.jpg);
+    min-height: 100%;
+}
+.pimg1,.pimg2,.pimg3,.pimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 30px;
+    text-align: center;
+}
+.textbg{
+    background-color: #444;
+    color: white;
+    padding: 10px;
+}
+.section{
+    padding:30px 80px;
+    text-align: justify;
+    word-spacing: 5px;
+}
+.section_light{
+    background-color:white
+    color: #666;
+}
+.section_dark{
+    background-color: lightgray;
+    color: black;
+}
+.section_dark2{
+    background-color: #222;
+}
+h2{
+    text-align: center;
+}
+
